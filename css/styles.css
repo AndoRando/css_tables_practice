@@ -1,0 +1,27 @@
+/* GLOBALS */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+
+
+/* SHARE BAR */
+
+
+
+/* TABLE */
