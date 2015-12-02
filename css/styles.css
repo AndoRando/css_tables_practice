@@ -10,6 +10,8 @@ html {
 
 body {
   background: #fff;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 a {
@@ -25,3 +27,81 @@ a {
 
 
 /* TABLE */
+
+table {
+  border-collapse: collapse;
+  width: 98%;
+  margin: 0 auto;
+}
+
+th {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  width: 10%;
+}
+
+th:first-of-type {
+  text-align: left;
+  width: 60%;
+}
+
+.medal-container {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+.medal {
+  position: absolute;
+  right: 36%;
+  top: 33%;
+}
+
+.gold {
+  border-color: goldenrod;
+  color: goldenrod;
+}
+
+.silver {
+  border-color: grey;
+  color: grey;
+}
+
+.bronze {
+  border-color: #d26e00;
+  color: #d26e00;
+}
+
+tr {
+  background: #fff;
+}
+
+tr:nth-child(odd):not(.header-row) {
+  background: #fafafa;
+}
+
+td {
+  padding: 1.5rem;
+  border: 1px solid #f2f2f2;
+}
+
+td img {
+  float: left;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+td:nth-child(1n+2) {
+  text-align: center;
+}
+
+td:last-child {
+  font-weight: bold;
+}
+
+td:first-child {
+  line-height: 32px;
+}
